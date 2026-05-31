@@ -9,4 +9,5 @@ int main() {
         i *= 2;
     }
     cout<<result;
+    return 0;
 }
