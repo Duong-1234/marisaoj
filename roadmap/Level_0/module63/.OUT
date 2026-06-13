@@ -1,0 +1,23 @@
+1 While 1 loop : 1i,j0,0
+IF 1 ACTIVE
+IF 1 0 ACTIVE
+(i,j) (0,1) a[i][j] : 2
+(i,j) (1,0) a[i][j] : 4
+IF 2 ACTIVE
+IF 2 0 ACTIVE
+(i,j) (3,0) a[i][j] : 12
+(i,j) (2,1) a[i][j] : 9
+(i,j) (1,2) a[i][j] : 6
+(i,j) (0,3) a[i][j] : 4
+While 1 loop : 2i,j0,3
+IF DB
+(i,j) (1,3) a[i][j] : 7
+(i,j) (2,2) a[i][j] : 10
+(i,j) (3,1) a[i][j] : 13
+IF 1 ACTIVE
+IF 1 1 ACTIVE
+(i,j) (3,2) a[i][j] : 14
+(i,j) (2,3) a[i][j] : 11
+IF 2 ACTIVE
+IF 2 1 ACTIVE
+(i,j) (3,3) a[i][j] : 15
