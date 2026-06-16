@@ -4,7 +4,7 @@ using namespace std;
 signed main() {
     int n, q;
     cin>>n>>q;
-    int a[n + 1],pref[n + 1] = {0};
+    int a[n + 1],pref[n + 1] = {};
     cin>>a[1];
     pref[1] = a[1];
     for(int i = 2 ; i <= n ; i++) {
@@ -16,6 +16,5 @@ signed main() {
         cin>>l>>r;
         cout<<pref[r] - pref[l - 1]<<"\n";
     }
-    
     return 0;
 }
